@@ -1,10 +1,8 @@
 # gha-shared
 
-Reusable GitHub Actions workflows for Jason’s private lab repos.
+Reusable GitHub Actions workflows for Jason’s lab repos.
 
-Public repos (like `opentofu`) cannot call workflows from a **private** repository. Keep this private and call it from private apps. To share with public repos later, make this repository public.
-
-Access: this repo’s Actions settings must allow access from other repositories owned by `jason4151`.
+This repository is **public** so both private apps (`subnet-calculator`) and public ones (`opentofu`) can `uses:` these workflows. Secrets stay in the caller.
 
 ## Workflows
 
